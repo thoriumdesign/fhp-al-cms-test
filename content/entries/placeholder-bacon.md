@@ -10,4 +10,4 @@ It is easy to write **markdown**-*enabled* content like this placeholder text, w
 
 If you are in local development-mode (`npm run dev`) you can double-click here to edit this page quickly.
 
-Below are some Gallery photos that have been added to this Project.
+Below are some Gallery photos that have been added to this Entry.
