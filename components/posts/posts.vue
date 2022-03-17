@@ -1,8 +1,9 @@
 <template>
-  <ul v-if="posts.length > 0" class="cards">
+  <ul v-if="posts.length > 0">
     <li
       v-for="(post, index) in posts"
       :key="index"
+      style="padding: 20px 0; border-bottom: thin solid rgba(0, 0, 0, 0.12);"
     >
       <nuxt-link
         :to="`${postType}/${post.slug}`"
@@ -10,15 +11,15 @@
       >
         <template v-if="postType === 'entries'">
           <span class="flex-1">
-            <h6 class="inline-block py-1 px-2 mr-1 bg-gray text-white text-sm font-medium rounded-sm">{{ post.category }}</h6>
+            <!-- <h6 class="inline-block py-1 px-2 mr-1 bg-gray text-white text-sm font-medium rounded-sm">{{ post.category }}</h6> -->
             <h3 class="card-title">{{ post.title }}</h3>
             <p class="mt-2">{{ post.description }}</p>
           </span>
-          <img
+          <!-- <img
             v-if="post.cover"
             class="cover-image"
             :src="post.cover"
-          >
+          > -->
         </template>
 
         <template v-else>
