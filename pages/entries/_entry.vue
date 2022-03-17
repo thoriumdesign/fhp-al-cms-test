@@ -1,8 +1,28 @@
 <template>
   <main>
     <section v-if="post">
-      <nav class="mb-8" aria-label="go back">
-        <router-back class="block" />
+      <nav class="mb-8 max-w-3xl mx-auto">
+        <nuxt-link to="/">
+          <button class="
+            bg-transparent 
+            hover:bg-blue-800 
+            text-blue-800 
+            font-semibold 
+            hover:text-white 
+            py-2 
+            px-4 
+            border 
+            border-blue-800 
+            hover:border-transparent 
+            rounded
+            inline-flex
+            items-center
+          ">
+            <svg class="fill-current w-4 h-4 mr-2" style="margin-left: -4px; margin-top: -2px;" viewBox="0 0 20 20">
+              <path fill="currentColor" d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z" />
+            </svg>
+            <span>Home</span></button>
+        </nuxt-link>
       </nav>
 
       <article>
