@@ -81,7 +81,12 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxt/content', 'nuxt-purgecss'],
+  modules: [
+    '@nuxtjs/axios',
+    '@nuxtjs/auth-next',
+    '@nuxt/content', 
+    'nuxt-purgecss'
+  ],
   /*
    ** Build configuration
    */
