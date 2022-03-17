@@ -1,13 +1,25 @@
 ---
 category: animals
-title: Fill Murrays
-description: Yet another placeholding entry, but with Bills
-cover: https://www.fillmurray.com/g/400/200
-gallery: ['https://www.fillmurray.com/g/800/400', 'https://www.fillmurray.com/600/600']
+title: Welfare
+description: A placeholder talking about welfare and such.
+cover: ""
+gallery: []
 ---
-
 It is easy to write **markdown**-*enabled* content like this placeholder text, with support for images.
 
-If you are in local development-mode (`npm run dev`) you can double-click here to edit this page quickly.
+This is sample text, sample text, sample text.
 
-Below are some Gallery photos that have been added to this Entry.
+> A quote like so is easy.
+
+You can even [](https://example.com)[link elsewhere](https://example.com) easily.
+
+### Heading
+
+A new topic can go under a heading quite nicely.
+
+Lists are:
+
+* Easy
+* Fun
+* Supercalifragilistic
+* Expialidocious
