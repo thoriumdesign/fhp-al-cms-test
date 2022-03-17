@@ -72,7 +72,12 @@ export default {
   /*
    ** Nuxt.js dev-modules
    */
-  buildModules: ['@nuxtjs/color-mode', '@nuxtjs/tailwindcss', '@nuxtjs/svg', '@nuxtjs/pwa'],
+  buildModules: [
+    '@nuxtjs/color-mode', 
+    '@nuxtjs/tailwindcss', 
+    '@nuxtjs/svg', 
+    '@nuxtjs/pwa'
+  ],
   /*
    ** Nuxt.js modules
    */
@@ -130,7 +135,7 @@ export default {
   },
   colorMode: {
     classSuffix: '',
-    preference: 'system', // default value of $colorMode.preference
+    preference: 'light', // default value of $colorMode.preference
     fallback: COLOR_MODE_FALLBACK, // fallback value if not system preference found
     componentName: 'ColorScheme',
     cookie: {
